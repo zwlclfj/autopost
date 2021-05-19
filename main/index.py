@@ -12,7 +12,7 @@ import sign
 
 
 def qq(text, desp):
-    qmsg = "key"
+    qmsg = "95911cdf412b11b02df8b63e97cd13eb"
     return requests.get("https://qmsg.zendee.cn/send/" + qmsg + "?msg=" + text + "\n\n" + desp).json()
 
 
