@@ -36,7 +36,7 @@ for i in range(len(info)):
             # 否则设为滁州学院（外校同学设置为自己学校domain编码）
             # domain编码详见wiki或者course文件夹内的readme
             if "schoolcode" not in info[i]:
-                info[i]['schoolcode'] = 'chzu'
+                info[i]['schoolcode'] = 'xmut'
             # 获取用户cookie
             cook = sign.login(info[i], UA)
             response = post.run(info[i], UA, cook)
