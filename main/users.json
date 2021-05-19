@@ -1,14 +1,8 @@
 [
     {
-        "name": "姓名",
-        "stucode": "学号",
-        "password": "密码",
-        "enable": "true"
-    },
-    {
-        "name": "姓名2",
-        "stucode": "学号",
-        "password": "密码",
+        "name": "郑伟龙",
+        "stucode": "1913304247",
+        "password": "eee271828",
         "enable": "true"
     }
 ]
